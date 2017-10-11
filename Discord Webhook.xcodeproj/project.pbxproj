@@ -359,7 +359,7 @@
 				INFOPLIST_FILE = "Discord Webhook/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.chun.Discord-Webhook";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SpaceBar.Discord-Webhook";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -372,7 +372,7 @@
 				INFOPLIST_FILE = "Discord Webhook/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.chun.Discord-Webhook";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SpaceBar.Discord-Webhook";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -422,6 +422,7 @@
 				85817A241F8E410C00E28DD3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		85817A251F8E410C00E28DD3 /* Build configuration list for PBXNativeTarget "Discord WebhookTests" */ = {
 			isa = XCConfigurationList;
@@ -430,6 +431,7 @@
 				85817A271F8E410C00E28DD3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
