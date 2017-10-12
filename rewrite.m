@@ -1,4 +1,4 @@
-/* 
+/*
 
 **HMTL CODE WE REWRITING INTO OBJ C**
 
@@ -53,4 +53,3 @@ function post(url, jsonmsg){
 }
 </script>
 */
-

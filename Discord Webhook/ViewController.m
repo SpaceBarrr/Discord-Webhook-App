@@ -19,42 +19,33 @@
 @synthesize iconURLLabel;
 @synthesize contentLabel;
 
-- (BOOL)textFieldShouldReturn:(UITextField *)textField {
-    if (textField == urlLabel) {
-        [textField resignFirstResponder];
-        [contentLabel becomeFirstResponder];
-    } else if (textField == contentLabel) {
-        // here you can define what happens
-        // when user presses return on the email field
-    }
-    return YES;
+-(BOOL) textFieldShouldReturn:(UITextField *)urlLabel{
+        [urlLabel resignFirstResponder];
+        return YES;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+-(BOOL) textFieldShouldReturn1:(UITextField *)usernameLabel{
+        [urlLabel resignFirstResponder];
+        return YES;
+}
+-(BOOL) textFieldShouldReturn2:(UITextField *)iconURLLabel{
+        [urlLabel resignFirstResponder];
+        return YES;
+}
+-(BOOL) textFieldShouldReturn3:(UITextField *)contentLabel{
+        [urlLabel resignFirstResponder];
+        return YES;
+}
 
 - (void)viewDidLoad {
-    [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-}
+    
+    [urlLabel setDelegate:self];
+    [usernameLabel setDelegate:self];
+    [iconURLLabel setDelegate:self];
+    [contentLabel setDelegate:self];
 
+    
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

@@ -10,10 +10,10 @@
 
 @interface ViewController : UIViewController
 
-@property (strong, nonatomic) IBOutlet UILabel *urlLabel;
-@property (strong, nonatomic) IBOutlet UILabel *usernameLabel;
-@property (strong, nonatomic) IBOutlet UILabel *iconURLLabel;
-@property (strong, nonatomic) IBOutlet UILabel *contentLabel;
+@property (strong, nonatomic) IBOutlet UITextField *urlLabel;
+@property (strong, nonatomic) IBOutlet UITextField *usernameLabel;
+@property (strong, nonatomic) IBOutlet UITextField *iconURLLabel;
+@property (strong, nonatomic) IBOutlet UITextField *contentLabel;
 
 @end
 
