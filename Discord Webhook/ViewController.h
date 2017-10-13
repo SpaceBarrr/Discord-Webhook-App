@@ -14,6 +14,7 @@
 @property (strong, nonatomic) IBOutlet UITextField *usernameLabel;
 @property (strong, nonatomic) IBOutlet UITextField *iconURLLabel;
 @property (strong, nonatomic) IBOutlet UITextField *contentLabel;
+@property (weak, nonatomic) IBOutlet UIButton *send;
 
 @end
 
